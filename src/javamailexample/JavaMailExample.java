@@ -52,7 +52,7 @@ public class JavaMailExample {
         // Create mail object.
         mymailmessage = new MimeMessage(mailsession);
         mymailmessage.addRecipient(Message.RecipientType.TO, new InternetAddress("mikroulhs93@gmail.com"));
-        mymailmessage.setSubject("I have a new offer for you, MATHAFUCKA");
+        mymailmessage.setSubject("With this program,\nThe spam is Real!");
 
         // Object to hold the parts of the body :
         Multipart multipart = new MimeMultipart();
